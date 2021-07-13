@@ -5,10 +5,10 @@ install:
 	go get -u github.com/mattn/goveralls
 
 build:
-	go build
+	 go build
 
 installLocal:
-	go install
+	 go install
 
 docker:
 	@cd docker && \
